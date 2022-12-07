@@ -72,6 +72,10 @@ Kruize HPO can be installed natively on Linux, as a container or in minikube / o
 You can run a specific version of the Kruize HPO container
     `$ ./deploy_hpo.sh -c minikube -o image:tag`
 
+## Kruize HPO on Operate First
+We have deployed Kruize HPO with our namespace ‘openshift-tuning’ on [Operate first](https://www.operate-first.cloud/) community cloud to promote open operations. You can access it by running the following command:
+ `$ ./deploy_hpo.sh -c operate-first`
+
 ## How to make use of Kruize HPO for my use case?
 
 We would recommend that you start with the [hpo\_demo\_setup.sh](https://github.com/kruize/kruize-demos/blob/main/hpo_demo_setup.sh) script and customize it for your use case.
